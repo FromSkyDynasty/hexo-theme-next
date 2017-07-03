@@ -49,7 +49,7 @@ menu:
   #about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   commonweal: /404.html
 
 
@@ -77,9 +77,9 @@ menu_icons:
 # Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes
 #scheme: Muse
 scheme: Mist
+#scheme: Muse
 #scheme: Pisces
 
 
@@ -176,7 +176,6 @@ toc:
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
-
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -364,6 +363,7 @@ google_site_verification: 9xO5L-bGIWKIirLxhFIf66wlkWqntfjmWDyc8Q06uHw
 #yandex_site_verification:
 
 # CNZZ count
+<<<<<<< HEAD
 cnzz_siteid: 1260747944
 
 # Application Insights
@@ -413,7 +413,6 @@ rating:
   enable: false
   id:     #<app_id>
   color:  fc6423
-
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
