@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hexo, NexT, blog, java"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -36,7 +36,7 @@ seo: false
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -49,7 +49,7 @@ menu:
   #about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
   commonweal: /404.html
 
 
@@ -69,9 +69,6 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
-
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -127,15 +124,10 @@ font:
   codes:
     external: true
     family:
-    size:
-
-
-
-
+    size: 14
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
-
 
 # Social Links
 # Key is the link label showing to end users.
@@ -144,7 +136,6 @@ social:
   GitHub: https://github.com/FromSkyDynasty
   微博: http://weibo.com/sijie1992
   Facebook: https://www.facebook.com/tomatoFryStone
-
 
 # Social Links Icons
 # Icon Mapping:
@@ -160,20 +151,17 @@ social_icons:
   微博: weibo
   Facebook: facebook
 
-
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://oi4kggmuk.qnssl.com/hexo/header.jpg
 
 
 # Table Of Contents in the Sidebar
 toc:
   enable: true
-
   # Automatically add list number to toc.
   number: true
-
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
 
@@ -182,7 +170,6 @@ toc:
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
 #creative_commons:
-
 
 sidebar:
   # Sidebar Position, available value: left | right
@@ -234,7 +221,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
+  enable: false
   length: 150
 
 # Post meta display settings
@@ -264,8 +251,6 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -278,7 +263,6 @@ post_copyright:
 custom_logo:
   enabled: false
   image:
-
 
 # Code Highlight theme
 # Available value:
@@ -312,7 +296,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname:
+  shortname: tomatofrystone
   count: true
 
 # Hypercomments
@@ -363,7 +347,6 @@ google_site_verification: 9xO5L-bGIWKIirLxhFIf66wlkWqntfjmWDyc8Q06uHw
 #yandex_site_verification:
 
 # CNZZ count
-<<<<<<< HEAD
 cnzz_siteid: 1260747944
 
 # Application Insights
@@ -621,7 +604,6 @@ vendors:
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
   han:
-
 
 # Assets
 css: css
